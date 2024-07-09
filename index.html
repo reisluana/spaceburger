@@ -14,7 +14,7 @@
 
     <link rel="stylesheet" href="./styles/output.css" />
 </head>
-<div>
+<body>
     <!---HEADER-->
     <header class="w-full h-[420px] bg-zinc-900 bg-home bg-cover bg-center">
         <div class="w-full h-full flex flex-col justify-center items-center">
@@ -43,7 +43,7 @@
     </h2>
 
     <!--MENU-->
-    <div>
+    <div id="menu">
         <main class="grid grid-cols-1 md:grid-cols-2 gap-7 md:gap-10 mx-auto max-w-7xl px-2 mb-16">
 
             <!--PRODUTO-->
@@ -310,7 +310,7 @@
     <!--FIM MENU-->
 
     <!--MODAL CART-->
-    <div class="bg-black/50 w-full h-full fixed top-0 left-0 z-[99] items-center justify-center hidden">
+    <div class="bg-black/50 w-full h-full fixed top-0 left-0 z-[99] items-center justify-center hidden" id="cart-modal">
         <div class="bg-slate-200 p-5 rounded-md min-w[90%] md:min-w-[600px]">
             <h2 class="text-center font-bold text-2xl mb-2">
                 Meu carrinho
@@ -344,5 +344,8 @@
         </button>
     </footer>
     <!--FIM BUTTON CART FOOTER-->
+
+
+    <script src="script.js"></script>
 </body>
 </html>
